@@ -57,7 +57,7 @@ a {
 }
 
 a:hover, a:focus {
-	color: #fff;
+	color: #e74d3c;
 }
 
 code {
@@ -78,7 +78,7 @@ code {
 	line-height: 36px;
 	padding: 0 0 15px;
 	font-weight: 400;
-	color: #ea6657;
+	color: yellow;
 	margin: 0;
 }
 
@@ -89,7 +89,7 @@ code {
 }
 
 .grid li .codrops-header a span {
-	color: #e74d3c;
+	color: yellow;
 	font-weight: 400;
 	font-size: 10px;
 	text-transform: uppercase;
@@ -176,7 +176,7 @@ code {
 }
 
 /*fragments*/
-.section {
+/*.section {
 	position: relative;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -186,71 +186,9 @@ code {
 	-ms-flex-direction: column;
 	flex-direction: column;
 	color: yellow;
-}
-
-/*.section--intro {
-	background: url(../img/arrow.svg) no-repeat calc(100% - 2em) calc(100% - 1.5em);
-	background-size: 40px;
-	min-height: 100vh;
 }*/
 
-/*.section--flow {
-	padding: 3em 0;
-	min-height: 100vh;
-}*/
 
-/*.section--related {
-	padding: 3em 1em;
-	font-weight: bold;
-	text-align: center;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: row;
-	flex-direction: row;
-	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-}
-
-.section__heading {
-	width: 100%;
-}*/
-
-.title {
-	/*position: absolute;*/
-	font-size: 2em;
-	margin: 0;
-	color: #222;
-}
-
-.text {
-	font-size: 0.7em;
-	width: 50%;
-	color: white;
-	pointer-events: none;
-	margin-top: 5px;
-}
-
-.left {
-	text-align: left;
-}
-
-.right {
-	text-align: right;
-}
-
-.deco-bg {
-	line-height: 1.6;
-}
-
-.deco-bg--color-1, .deco-bg--color-2, .deco-bg--color-3 {
-	background: -webkit-linear-gradient(bottom, #222 90%, transparent 90%, transparent);
-	background: linear-gradient(to top, #222 90%, transparent 90%, transparent);
-	color: white;
-	padding: 4px;
-}
 
 /* Adjust the layout for smaller screens */
 

@@ -1,0 +1,63 @@
+.experience-row {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.title {
+	font-size: 2em;
+	margin: 0;
+  margin-bottom: 10px;
+	color: #222;
+  padding-left: 10px;
+}
+
+.title a {
+  /*text-decoration: none;
+  color: #222;*/
+  background-image: linear-gradient(180deg,transparent 65%,white 0);
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  color: #000;
+  -webkit-transition: background-size .4s ease;
+  transition: background-size .4s ease;
+}
+
+.title a:hover {
+
+      background-size: 100% 100%;
+cursor: default;
+color: #000;
+}
+
+.subtitle {
+  font-size: 0.5em;
+  margin: 0;
+	color: #222;
+  text-transform: uppercase;
+  padding-left: 10px;
+}
+
+.text {
+	font-size: 0.7em;
+	color: white;
+	position: relative;
+	margin-top: 5px;
+  padding: 10px;
+}
+
+.left {
+	text-align: left;
+}
+
+.right {
+	text-align: right;
+}
+
+.deco-bg {
+	line-height: 1.6;
+	background: -webkit-linear-gradient(bottom, #222 90%, transparent 90%, transparent);
+	background: linear-gradient(to top, #222 90%, transparent 90%, transparent);
+	color: white;
+	padding: 4px;
+}

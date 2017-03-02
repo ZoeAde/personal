@@ -9,19 +9,20 @@
 		<meta name="keywords" content="pseudo-elements, letters, css, animated, transition, opening, cut-out, inspiration" />
 		<meta name="author" content="Codrops" />
 		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/letter-grid.css" />
 		<link rel="stylesheet" type="text/css" href="css/madlib.css" />
-		<link rel="stylesheet" type="text/css" href="css/fragments.css" />
+		<link rel="stylesheet" type="text/css" href="css/resume.css" />
 		<link rel="stylesheet" type="text/css" href="css/slideshow.css" />
 		<script src="js/modernizr.custom.js"></script>
 	</head>
 	<body>
-		<div class="container">
+		<div>
 			<div class="component">
 				<ul class="grid">
-					<li><div class="codrops-header"><h1>Zoë Adelman</h1><a href="#"><span>Resume</span></a><a href="#"><span>Design</span></a><a href="#"><span>Code</span></a><a href="#"><span>Contact</span></a></div></li>
+					<!-- <li><div class="codrops-header"><h1>Zoë Adelman</h1><a href="#"><span>Resume</span></a><a href="#"><span>Design</span></a><a href="#"><span>Code</span></a><a href="#"><span>Contact</span></a></div></li> -->
 					<li class="ot-letter-left"><span data-letter="C">C</span></li>
 					<li class="ot-letter-top"><span data-letter="J">J</span></li>
 					<li class="ot-letter-right"><span data-letter="8">8</span></li>
@@ -39,58 +40,45 @@
 					<li class="ot-letter-right"><span data-letter="D">D</span></li>
 					<li class="ot-letter-bottom"><span data-letter="I">I</span></li>
 					<li class="ot-letter-right"><span data-letter="H">H</span></li>
+					<li class="ot-letter-top"><span data-letter="7">7</span></li>
 				</ul>
 			</div>
 			<section id="design" class="related">
 				<div class="design-headline">
 					<h1>Experience</h1>
 				</div>
-				<div class="left company">
-					<h2 class="title">Galvanize</h2>
-					<p class="text"><span class="deco-bg deco-bg--color-1">“Waking up this morning, I smile. Twenty-four brand new hours are before me. I vow to live fully in each moment and to look at all beings with eyes of compassion.” ― Thich Nhat Hanh</span></p>
+				<div class="row experience-row">
+					<div class="col-md-3 col-md-offset-2 col-sm-12 left">
+						<h2 class="title"><a href="#">Galvanize</a></h2>
+						<h6 class="subtitle">Web Developer, Analytics & Growth</h6>
+					</div>
+					<div class="col-md-6 col-sm-12 right">
+						<p class="text"><span class="deco-bg deco-bg--color-1">Donec porttitor, metus ut placerat placerat, augue turpis hendrerit tortor, id ullamcorper quam arcu vel purus. Quisque at quam eget augue malesuada efficitur. Curabitur consectetur viverra risus at cursus. Pellentesque erat odio, dictum vel lacinia sit amet, hendrerit a arcu. Fusce nec pulvinar sapien.</span></p>
+					</div>
 				</div>
-				<div class="right company">
-					<h2 class="title">Rust & Salt</h2>
-					<p class="text"><span class="deco-bg deco-bg--color-1">“Waking up this morning, I smile. Twenty-four brand new hours are before me. I vow to live fully in each moment and to look at all beings with eyes of compassion.” ― Thich Nhat Hanh</span></p>
+				<div class="row experience-row">
+					<div class="col-md-3 col-md-offset-2 col-sm-12 left">
+						<h2 class="title"><a href="#">Rust & Salt</a></h2>
+						<h6 class="subtitle">Content Manager</h6>
+					</div>
+					<div class="col-md-6 col-sm-12 right">
+						<p class="text"><span class="deco-bg deco-bg--color-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin maximus, quam sed tincidunt tristique, erat arcu volutpat enim, quis varius sapien purus vitae libero. Aenean lacinia consectetur neque vitae viverra. Cras ultrices lectus ut tortor iaculis, id pretium tortor sagittis. Nunc bibendum ornare lorem ac pharetra.</span></p>
+					</div>
 				</div>
-				<div class="left company">
-					<h2 class="title">Prize Candle</h2>
-					<p class="text"><span class="deco-bg deco-bg--color-1">“Waking up this morning, I smile. Twenty-four brand new hours are before me. I vow to live fully in each moment and to look at all beings with eyes of compassion.” ― Thich Nhat Hanh</span></p>
+				<div class="row experience-row">
+					<div class="col-md-3 col-md-offset-2 col-sm-12 left">
+						<h2 class="title"><a href="#">Prize Candle</a></h2>
+						<h6 class="subtitle">Project Manager</h6>
+					</div>
+					<div class="col-md-6 col-sm-12 right">
+						<p class="text"><span class="deco-bg deco-bg--color-1">Mauris eget elit orci. Sed ultrices nunc at leo scelerisque pretium. Sed sodales, neque quis sodales scelerisque, mauris risus tincidunt odio, vitae tincidunt tellus massa ac odio.</span></p>
+					</div>
 				</div>
 
 				<!-- </section> -->
 				<!-- <section id="madlib"> -->
 			</section>
-			<section id="code" class="related">
-				<div class="clearfix">
-					<form id="nl-form" class="nl-form">
-						I am a
-						<select>
-							<option value="1" selected>learner</option>
-							<option value="2">developer</option>
-							<option value="3">designer</option>
-							<option value="4">data analyst</option>
-							<option value="2">feminist</option>
-						</select>
-						passionate about
-						<select>
-							<option value="1" selected>bluegrass music</option>
-							<option value="2">start-ups</option>
-							<option value="3">user behavior</option>
-							<option value="4">modern furniture</option>
-							<option value="2">glutinous food</option>
-						</select>
-						<br />and spending my time
-						<select>
-							<option value="1" selected>traveling</option>
-							<option value="1">at the best Denver coffee shops</option>
-							<option value="2">skiing</option>
-							<option value="3">at the bookstore</option>
-						</select>
-						<div class="nl-overlay"></div>
-					</form>
-				</div>
-			</section>
+
 
 			<!-- <section id="resume" class="related"> -->
 			<div class="slideshow" id="slideshow" style="z-index:5000">
@@ -158,21 +146,36 @@
 				</ol>
 			</div>
 
-			<section class="resume">
-				<div class="left company">
-					<h2 class="title">Galvanize</h2>
-					<p class="text"><span class="deco-bg deco-bg--color-1">“Waking up this morning, I smile. Twenty-four brand new hours are before me. I vow to live fully in each moment and to look at all beings with eyes of compassion.” ― Thich Nhat Hanh</span></p>
-				</div>
-				<div class="right company">
-					<h2 class="title">Rust & Salt</h2>
-					<p class="text"><span class="deco-bg deco-bg--color-1">“Waking up this morning, I smile. Twenty-four brand new hours are before me. I vow to live fully in each moment and to look at all beings with eyes of compassion.” ― Thich Nhat Hanh</span></p>
-				</div>
-				<div class="left company">
-					<h2 class="title">Prize Candle</h2>
-					<p class="text"><span class="deco-bg deco-bg--color-1">“Waking up this morning, I smile. Twenty-four brand new hours are before me. I vow to live fully in each moment and to look at all beings with eyes of compassion.” ― Thich Nhat Hanh</span></p>
+			<section id="code" class="related">
+				<div class="clearfix">
+					<form id="nl-form" class="nl-form">
+						I am a
+						<select>
+							<option value="1" selected>learner</option>
+							<option value="2">developer</option>
+							<option value="3">designer</option>
+							<option value="4">data analyst</option>
+							<option value="2">feminist</option>
+						</select>
+						passionate about
+						<select>
+							<option value="1" selected>bluegrass music</option>
+							<option value="2">start-ups</option>
+							<option value="3">user behavior</option>
+							<option value="4">modern furniture</option>
+							<option value="2">glutinous food</option>
+						</select>
+						<br />and spending my time
+						<select>
+							<option value="1" selected>traveling</option>
+							<option value="1">at the best Denver coffee shops</option>
+							<option value="2">skiing</option>
+							<option value="3">at the bookstore</option>
+						</select>
+						<div class="nl-overlay"></div>
+					</form>
 				</div>
 			</section>
-
 		</div><!-- /container -->
 		<script src="js/nlform.js"></script>
 		<script src="js/classie.js"></script>
