@@ -29,17 +29,6 @@ body {
 	max-width: 100%;
 }
 
-#design {
-	background: rgb(255,235,65);
-	color: #222;
-}
-
-.design-headline { background: rgb(255,235,65); }
-.design-headline h1 { text-shadow: 1px 4px 6px rgb(255,235,65), 0 0 0 hsla(0, 0%, 0%, 0.3), 1px 4px 6px rgb(255,235,65); }
-.design-headline h1:after { color: rgb(255,235,65); }
-.design-headline:hover h1:after { color: rgb(255,235,65); }
-
-
 .clearfix:before,
 .clearfix:after {
 	content: '';

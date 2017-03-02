@@ -59,8 +59,8 @@
 
 .ot-letter-left { background: #222; }
 .ot-letter-left span { text-shadow: 1px 4px 6px #222, 0 0 0 hsla(0, 0%, 0%, 0.3), 1px 4px 6px #222; }
-.ot-letter-left span:after { color: #222; }
-.ot-letter-left:hover span:after { color: #222; }
+.ot-letter-left span:after { color: #222 }
+.ot-letter-left:hover span:after { color: yellow }
 
 .ot-letter-right { background: #222; }
 .ot-letter-right span { text-shadow: 1px 4px 6px #222, 0 0 0 hsla(0, 0%, 0%, 0.3), 1px 4px 6px #222; }
@@ -131,7 +131,7 @@
 	transform: rotateY(15deg);
 }
 
-.ot-letter-right:hover span:before {
+/*.ot-letter-right:hover span:before {
 	-webkit-transform: scale(0.85,1) skew(0deg,-20deg);
 	-ms-transform: scale(0.85,1) skew(0deg,-20deg);
 	transform: scale(0.85,1) skew(0deg,-20deg);
@@ -141,7 +141,7 @@
 	-webkit-transform: rotateY(40deg);
 	-ms-transform: rotateY(40deg);
 	transform: rotateY(40deg);
-}
+}*/
 
 /* Up */
 .ot-letter-top span:before,
@@ -164,7 +164,7 @@
 	transform: rotateX(-15deg);
 }
 
-.ot-letter-top:hover span:before {
+/*.ot-letter-top:hover span:before {
 	-webkit-transform: translateY(-0.050em) scale(1,0.55) skew(-10deg,0deg);
 	-ms-transform: translateY(-0.050em) scale(1,0.55) skew(-10deg,0deg);
 	transform: translateY(-0.050em) scale(1,0.55) skew(-10deg,0deg);
@@ -174,7 +174,7 @@
 	-webkit-transform: translateY(-0.035em) rotateX(-40deg);
 	-ms-transform: translateY(-0.035em) rotateX(-40deg);
 	transform: translateY(-0.035em) rotateX(-40deg);
-}
+}*/
 
 /* Down */
 .ot-letter-bottom span:before,
@@ -196,7 +196,7 @@
 	-ms-transform: rotateX(15deg);
 	transform: rotateX(15deg);
 }
-
+/*
 .ot-letter-bottom:hover span:before {
 	-webkit-transform: translateY(-0.035em) scale(1,1.2) skew(10deg,0deg);
 	-ms-transform: translateY(-0.035em) scale(1,1.2) skew(10deg,0deg);
@@ -207,7 +207,7 @@
 	-webkit-transform: translateY(0.045em) rotateX(40deg);
 	-ms-transform: translateY(0.045em) rotateX(40deg);
 	transform: translateY(0.045em) rotateX(40deg);
-}
+}*/
 
 /* Example for media query: change number of items per row */
 @media screen and (max-width: 1190px) {

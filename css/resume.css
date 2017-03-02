@@ -1,10 +1,52 @@
+#design {
+	background: rgba(255,235,65, 1);
+	color: #222;
+  padding-top: 0;
+}
+
+/*.design-headline { background: yellow; }*/
+.design-headline {
+  height: 140px;
+}
+.design-headline h1 {
+  color: rgba(255,235,65, 1);
+  font-size: 2em;
+  left: 0;
+  position: absolute;
+  margin: 0;
+}
+
+.design-headline h1 { text-shadow: 1px 1px 1px #222, 0 0 0 hsla(0, 0%, 0%, 0.1), 1px 4px 6px yellow; }
+.design-headline h1:after { color: yellow; }
+.design-headline:hover h1:after { color: yellow; }
+
+.design-headline h1:before,
+.design-headline h1:after {
+	-webkit-transform-origin: 50% 0;
+	-ms-transform-origin: 50% 0;
+	transform-origin: 50% 0;
+}
+
+.design-headline h1:before {
+	-webkit-transform: scale(1,1.05) skew(4deg,0deg);
+	-ms-transform: scale(1,1.05) skew(4deg,0deg);
+	transform: scale(1,1.05) skew(4deg,0deg);
+}
+
+.design-headline h1:after {
+	text-shadow: 0px -1px 0px hsla(360, 100%, 100%, 0.1), 0px 3px 1px hsla(0, 0%, 0%, 0.4);
+	-webkit-transform: rotateX(15deg);
+	-ms-transform: rotateX(15deg);
+	transform: rotateX(15deg);
+}
+
 .experience-row {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
 .title {
-	font-size: 2em;
+	font-size: 1.6em;
 	margin: 0;
   margin-bottom: 10px;
 	color: #222;
@@ -24,10 +66,9 @@
 }
 
 .title a:hover {
-
-      background-size: 100% 100%;
-cursor: default;
-color: #000;
+  background-size: 100% 100%;
+  cursor: default;
+  color: #000;
 }
 
 .subtitle {
@@ -39,11 +80,14 @@ color: #000;
 }
 
 .text {
-	font-size: 0.7em;
+	font-size: 0.6em;
 	color: white;
 	position: relative;
 	margin-top: 5px;
-  padding: 10px;
+}
+
+.text span {
+  padding: 2px;
 }
 
 .left {
@@ -58,6 +102,4 @@ color: #000;
 	line-height: 1.6;
 	background: -webkit-linear-gradient(bottom, #222 90%, transparent 90%, transparent);
 	background: linear-gradient(to top, #222 90%, transparent 90%, transparent);
-	color: white;
-	padding: 4px;
 }
