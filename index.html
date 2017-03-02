@@ -13,6 +13,8 @@
 		<link rel="stylesheet" type="text/css" href="css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/letter-grid.css" />
 		<link rel="stylesheet" type="text/css" href="css/madlib.css" />
+		<link rel="stylesheet" type="text/css" href="css/fragments.css" />
+		<link rel="stylesheet" type="text/css" href="css/slideshow.css" />
 		<script src="js/modernizr.custom.js"></script>
 	</head>
 	<body>
@@ -39,13 +41,27 @@
 					<li class="ot-letter-right"><span data-letter="H">H</span></li>
 				</ul>
 			</div>
-			<section id="resume" class="related">
-				<div>
-					<h1>Resume</h1>
-					<p>a subheader about my work</p>
+			<section id="design" class="related">
+				<div class="design-headline">
+					<h1>Experience</h1>
 				</div>
+				<div class="left company">
+					<h2 class="title">Galvanize</h2>
+					<p class="text"><span class="deco-bg deco-bg--color-1">“Waking up this morning, I smile. Twenty-four brand new hours are before me. I vow to live fully in each moment and to look at all beings with eyes of compassion.” ― Thich Nhat Hanh</span></p>
+				</div>
+				<div class="right company">
+					<h2 class="title">Rust & Salt</h2>
+					<p class="text"><span class="deco-bg deco-bg--color-1">“Waking up this morning, I smile. Twenty-four brand new hours are before me. I vow to live fully in each moment and to look at all beings with eyes of compassion.” ― Thich Nhat Hanh</span></p>
+				</div>
+				<div class="left company">
+					<h2 class="title">Prize Candle</h2>
+					<p class="text"><span class="deco-bg deco-bg--color-1">“Waking up this morning, I smile. Twenty-four brand new hours are before me. I vow to live fully in each moment and to look at all beings with eyes of compassion.” ― Thich Nhat Hanh</span></p>
+				</div>
+
+				<!-- </section> -->
+				<!-- <section id="madlib"> -->
 			</section>
-			<section id="madlib">
+			<section id="code" class="related">
 				<div class="clearfix">
 					<form id="nl-form" class="nl-form">
 						I am a
@@ -75,20 +91,95 @@
 					</form>
 				</div>
 			</section>
-			<section id="code" class="related">
-				<div>
-					<h1>Code</h1>
-					<p>a subheader about my work</p>
+
+			<!-- <section id="resume" class="related"> -->
+			<div class="slideshow" id="slideshow" style="z-index:5000">
+				<ol class="slides">
+					<li class="current">
+						<div class="description">
+							<h2>Tilted Content Slideshow</h2>
+							<p>This slider, as seen on the landing page of the <a href="http://www.thefwa.com/">FWA</a>, plays with 3D perspective and performs some interesting animations on the right-hand side images.</p>
+						</div>
+						<div class="tiltview col">
+							<a href="http://grovemade.com/"><img src="img/1_screen.jpg"/></a>
+							<a href="https://tsovet.com/"><img src="img/2_screen.jpg"/></a>
+						</div>
+					</li>
+					<li>
+						<div class="description">
+							<h2>CSS Animations</h2>
+							<p>We are using 12 different animations for showing and hiding the items of a slide. The animations are defined by randomly adding data-attributes called <code>data-effect-in</code> and <code>data-effect-out</code> for every slide. </p>
+						</div>
+						<div class="tiltview row">
+							<a href="http://pexcil.com/"><img src="img/3_mobile.jpg"/></a>
+							<a href="http://foodsense.is/"><img src="img/4_mobile.jpg"/></a>
+						</div>
+					</li>
+					<li>
+						<div class="description">
+							<h2>Tilted Items</h2>
+							<p>The perspective view is achieved by adding a perspective value to the slide list item and tilting a division that contains the two screenshots.</p>
+						</div>
+						<div class="tiltview col">
+							<a href="http://minimalmonkey.com/"><img src="img/5_screen.jpg"/></a>
+							<a href="http://www.herschelsupply.com/"><img src="img/6_screen.jpg"/></a>
+						</div>
+					</li>
+					<li>
+						<div class="description">
+							<h2>Column or Row</h2>
+							<p>The items in the tilted container are either laid out in a column or in a row. For some directions we need to adjust the animation delays for the items, since we don't want the items to overlap each other when they move in or out.</p>
+						</div>
+						<div class="tiltview row">
+							<a href="http://grovemade.com/"><img src="img/1_mobile.jpg"/></a>
+							<a href="https://tsovet.com/"><img src="img/2_mobile.jpg"/></a>
+						</div>
+					</li>
+					<li>
+						<div class="description">
+							<h2>Responsiveness</h2>
+							<p>For smaller screens, the items on the right hand side will become less opaque and serve as decoration only. The focus will be on the description which will occupy all the width.</p>
+						</div>
+						<div class="tiltview col">
+							<a href="http://pexcil.com/"><img src="img/3_screen.jpg"/></a>
+							<a href="http://foodsense.is/"><img src="img/4_screen.jpg"/></a>
+						</div>
+					</li>
+					<li>
+						<div class="description">
+							<h2>Navigation</h2>
+							<p>For the "line" navigation we use a little trick to make the clickable area a bit bigger: we add a thick white border to the top and bottom of the span. Since the border is part of the element, it will be part of the clickable zone.</p>
+						</div>
+						<div class="tiltview row">
+							<a href="http://minimalmonkey.com/"><img src="img/5_mobile.jpg"/></a>
+							<a href="http://www.herschelsupply.com/"><img src="img/6_mobile.jpg"/></a>
+						</div>
+					</li>
+				</ol>
+			</div>
+
+			<section class="resume">
+				<div class="left company">
+					<h2 class="title">Galvanize</h2>
+					<p class="text"><span class="deco-bg deco-bg--color-1">“Waking up this morning, I smile. Twenty-four brand new hours are before me. I vow to live fully in each moment and to look at all beings with eyes of compassion.” ― Thich Nhat Hanh</span></p>
+				</div>
+				<div class="right company">
+					<h2 class="title">Rust & Salt</h2>
+					<p class="text"><span class="deco-bg deco-bg--color-1">“Waking up this morning, I smile. Twenty-four brand new hours are before me. I vow to live fully in each moment and to look at all beings with eyes of compassion.” ― Thich Nhat Hanh</span></p>
+				</div>
+				<div class="left company">
+					<h2 class="title">Prize Candle</h2>
+					<p class="text"><span class="deco-bg deco-bg--color-1">“Waking up this morning, I smile. Twenty-four brand new hours are before me. I vow to live fully in each moment and to look at all beings with eyes of compassion.” ― Thich Nhat Hanh</span></p>
 				</div>
 			</section>
-			<section id="design" class="related">
-				<div>
-					<h1>Design</h1>
-					<p>a subheader about my work</p>
-				</div>
-			</section>
+
 		</div><!-- /container -->
 		<script src="js/nlform.js"></script>
+		<script src="js/classie.js"></script>
+		<script src="js/tiltSlider.js"></script>
+		<script>
+			new TiltSlider( document.getElementById( 'slideshow' ) );
+		</script>
 		<script>
 			var nlform = new NLForm( document.getElementById( 'nl-form' ) );
 		</script>

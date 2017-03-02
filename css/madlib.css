@@ -7,8 +7,8 @@
 .nl-form {
 	width: 100%;
 	margin: 0.3em auto 0 auto;
-	font-size: 4em;
-	line-height: 1.5;
+	font-size: 1.1em;
+	line-height: 2;
 }
 
 .nl-form ul {
@@ -55,9 +55,9 @@
 .nl-form select  {
 	line-height: inherit;
 	display: inline-block;
-	color: #b14943;
+	color: yellow;
 	cursor: pointer;
-	border-bottom: 1px dashed #b14943;
+	border-bottom: 1px dashed yellow;
 }
 
 /* drop-down list / text element */
